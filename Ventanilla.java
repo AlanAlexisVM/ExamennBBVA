@@ -18,9 +18,6 @@ public class Ventanilla{
             operacion = lectura.nextInt();
             operaciones.offer(operacion);
         }
-        operaciones.offer(1);
-        operaciones.offer(2);
-        operaciones.offer(5);
         System.out.println(operaciones);
         System.out.println("Tiempo en que se tardo en hacer sus transacciones: "+Ventanilla(operaciones));
         
@@ -33,7 +30,7 @@ public class Ventanilla{
         nombre = "Alex";
         int tiempo = 0;
         int clientes = operaciones.size();
-        int clienteId = 2;
+        int clienteId = 0;
         int transacciones = 0;
         System.out.println("Inserte el Id del cliente que quiera ver el tiempo que tarda en terminar sus transacciones: ");
         clienteId = lectura.nextInt();*/
