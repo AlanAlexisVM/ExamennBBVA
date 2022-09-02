@@ -10,14 +10,14 @@ public class Ventanilla{
         int clientes = 0;
         int operacion = 0;
         
-        /*System.out.println("Cuantas personas hay en la fila: ");
+        System.out.println("Cuantas personas hay en la fila: ");
         clientes = lectura.nextInt();
         
         for(int i = 0; i < clientes; i++){
             System.out.println("Cuantas operaciones hara el cliente con el Id: " + i);
             operacion = lectura.nextInt();
             operaciones.offer(operacion);
-        }*/
+        }
         operaciones.offer(1);
         operaciones.offer(2);
         operaciones.offer(5);
@@ -35,11 +35,11 @@ public class Ventanilla{
         int clientes = operaciones.size();
         int clienteId = 2;
         int transacciones = 0;
-        /*System.out.println("Inserte el Id del cliente que quiera ver el tiempo que tarda en terminar sus transacciones: ");
+        System.out.println("Inserte el Id del cliente que quiera ver el tiempo que tarda en terminar sus transacciones: ");
         clienteId = lectura.nextInt();*/
         
-        /*System.out.println("Inserte el nombre del cliente: ");
-        nombre = lectura2.nextLine();*/
+        System.out.println("Inserte el nombre del cliente: ");
+        nombre = lectura2.nextLine();
         
         int totalTransacciones = (int) operaciones.get(clienteId);
         
@@ -82,7 +82,6 @@ public class Ventanilla{
                 break;
             }
         }
-        
         
         System.out.println("Termino\nTransacciones en total: " + transacciones);
         
