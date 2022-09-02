@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class JavaApplication17{
+public class Ventanilla{
     static Scanner lectura = new Scanner(System.in);
     static Scanner lectura2 = new Scanner(System.in);
     
